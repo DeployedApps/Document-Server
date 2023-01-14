@@ -36,13 +36,16 @@ documentation:
         name: USER-SERVICE
         url: https://userservice-production-c3f7.up.railway.app/v3/api-docs?group=USER-SERVICE
         version: 3.0
+        title: "This is a Combined-API Gateway cum Document Sevrer. Please select the individual apis from Spec dropdown & Click on right of controller to access the api."
       - 
         name: HOTEL-SERVICE
         url: https://hotelservice-production.up.railway.app/v3/api-docs?group=HOTEL-SERVICE
         version: 3.0
+        title: "This is a Combined-API Gateway cum Document Sevrer. Please select the individual apis from Spec dropdown & Click on right of controller to access the api."
       -
         name: RATING-SERVICE
         url: https://ratingservice-production.up.railway.app/v3/api-docs?group=RATING-SERVICE
         version: 3.0
+        title: "This is a Combined-API Gateway cum Document Sevrer. Please select the individual apis from Spec dropdown & Click on right of controller to access the api."
 
     
