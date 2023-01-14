@@ -29,6 +29,7 @@ documentation:
       -
         name: default
         url: /
+        summary: "This is defauilt"
 #        title: "This is a Combined-API Gateway cum Document Sevrer. Please select the individual apis from Spec dropdown & Click on right of controller to access the api."
 
       - 
