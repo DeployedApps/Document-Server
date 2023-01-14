@@ -1,8 +1,7 @@
 ---
 info:
-  title: This is a Combined-API Gateway cum Document Sevrer. Please select the individual apis from Spec dropdown & Click on right of controller to access the api.
-  
-  # description:
+  title: "This is a Combined-API Gateway cum Document Sevrer. Please select the individual apis from Spec dropdown & Click on right of controller to access the api."
+  description: "This is a Combined-API Gateway cum Document Sevrer. Please select the individual apis from Spec dropdown & Click on right of controller to access the api."
   # Whereas the Openapi definition is avaiable at 
   # USER-SERVICES        =>        https://userservice-production-c3f7.up.railway.app/v3/api-docs
   # HOTEL-SERVICE        =>         https://hotelservice-production.up.railway.app/v3/api-docs
