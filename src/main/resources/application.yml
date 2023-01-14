@@ -1,13 +1,16 @@
+---
+info:
+  component: This is document server
+
 spring:
   profiles: default
 
 server:
   port: 8088
-
-info:
-  version: "1.0.0"
-  title: "This is a Combined-API Gateway cum Document Sevrer. Please select the individual apis from Spec dropdown & Click on right of controller to access the api."
-  description: "This is a Combined-API Gateway cum Document Sevrer. Please select the individual apis from Spec dropdown & Click on right of controller to access the api."
+# info:
+#   version: "1.0.0"
+#   title: "This is a Combined-API Gateway cum Document Sevrer. Please select the individual apis from Spec dropdown & Click on right of controller to access the api."
+#   description: "This is a Combined-API Gateway cum Document Sevrer. Please select the individual apis from Spec dropdown & Click on right of controller to access the api."
   # Whereas the Openapi definition is avaiable at 
   # USER-SERVICES        =>        https://userservice-production-c3f7.up.railway.app/v3/api-docs
   # HOTEL-SERVICE        =>         https://hotelservice-production.up.railway.app/v3/api-docs
@@ -20,6 +23,9 @@ info:
   # RATING-SERVICE        =>        "https://ratingservice-production.up.railway.app/swagger-ui/index.html"
 
   # Source code for the services is avaiable at https://github.com/praveen1664/SpringBootMicroserviceExample.git
+# paths:
+#   /:
+#     description: File upload and download operations
 documentation: 
   baseurl: http://localhost
   swagger: 
