@@ -23,6 +23,10 @@ server:
   port: 8088
 
 documentation: 
+  info:
+  version: "1.0.0"
+  title: "This is a Combined-API Gateway cum Document Sevrer. Please select the individual apis from Spec dropdown & Click on right of controller to access the api."
+  description: "This is a Combined-API Gateway cum Document Sevrer. Please select the individual apis from Spec dropdown & Click on right of controller to access the api."
   baseurl: http://localhost
   swagger: 
     services:
