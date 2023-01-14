@@ -25,7 +25,12 @@ server:
 documentation: 
   baseurl: http://localhost
   swagger: 
-    services:   
+    services:
+      -
+        name: default
+        url: /
+        title: "This is a Combined-API Gateway cum Document Sevrer. Please select the individual apis from Spec dropdown & Click on right of controller to access the api."
+
       - 
         name: USER-SERVICE
         url: https://userservice-production-c3f7.up.railway.app/v3/api-docs?group=USER-SERVICE
